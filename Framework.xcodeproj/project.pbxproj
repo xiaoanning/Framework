@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D7C4F561F1DA4D00055EA6D /* Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7C4F561F1DA4D00055EA6D /* FrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7C4F5A1F1DA4D00055EA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D7C4F5C1F1DA4D00055EA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D7C4F5D1F1DA4D00055EA6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		4D7C4F571F1DA4D00055EA6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D7C4F561F1DA4D00055EA6D /* Framework.app */,
+				4D7C4F561F1DA4D00055EA6D /* FrameworkTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 			);
 			name = Framework;
 			productName = Framework;
-			productReference = 4D7C4F561F1DA4D00055EA6D /* Framework.app */;
+			productReference = 4D7C4F561F1DA4D00055EA6D /* FrameworkTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +275,7 @@
 				INFOPLIST_FILE = Framework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.Framework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FrameworkTest;
 			};
 			name = Debug;
 		};
@@ -286,7 +286,7 @@
 				INFOPLIST_FILE = Framework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.Framework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FrameworkTest;
 			};
 			name = Release;
 		};
